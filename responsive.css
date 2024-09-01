@@ -1,0 +1,132 @@
+@media (max-width: 1030px){
+
+    /* =================   Feature CSS ============== */
+    .margin_top_up{
+        margin-top: -25rem;
+      }
+
+}
+
+
+
+@media (max-width: 991px){
+
+    /* ============== Common CSS ============= */
+    h1, h2 {
+        font-size: 2.5rem;
+    }
+    .ipad-px-30{
+        padding: 0 1.875rem;
+    }
+
+    /* =========== Header Section =========== */
+
+    .navbar{
+padding-top: 0.625rem;
+padding-bottom: 0.72rem;
+    }
+    .navbar-brand{
+        width: 50%;
+    }
+
+    .navbar-brand img{
+        max-width: 60px;
+    }
+.navbar-toggler{
+    padding-bottom: 0;
+}
+.navbar-toggler:focus{
+box-shadow: none;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    width: 1em;
+    height: 1em;
+} 
+.navbar-sticky-on .navbar-toggler-icon{
+    color: black;
+}
+.navbar .navbar-nav{
+    background-color: #fff;
+    border-radius: 0.188rem;
+    text-align: center;
+}
+.navbar .navbar-nav .nav-link{
+     padding: 0.625rem 1.5rem;
+    color: #7e8085 !important;
+}
+          
+         /* =============== Home Section ============== */
+
+     #home{
+        padding-top: 7rem;
+     } 
+     #home .row{
+        flex-direction: column-reverse;
+     }
+     #home .home-text{
+        align-items: center;
+        margin-bottom: 2rem;
+     }
+     #home .home-download-btn{
+        justify-content: center;
+     }
+     #home .home-image{
+        text-align: center;
+     }
+     #home .home-image img{
+        max-width: 60%;
+     }
+      .single_prise{
+        margin-bottom: 2.5rem;
+      }
+}
+
+
+@media (max-width: 767px){
+
+    .mobile-px-20{
+        padding: 0 1.25rem;
+    };
+
+    #home{
+        padding-top: 5rem;
+    }
+
+    #home .home-text h2{
+        font-size: 2.435rem;
+        line-height: 3.956rem;
+    }
+    #home .home-download-btn .btn{
+        margin: 0;
+    }
+    .home-image{
+        align-items: center;
+        transform: rotate(0deg);
+    }
+
+    /* ======= Counter ====== */
+    .single-counter:nth-child(2)::after{
+        display: none;
+    }
+
+
+    .margin_top_up{
+        margin-top: 0rem;
+      }
+      .mobile_px_20{
+        padding: 0 1.25rem;
+      }
+
+      .features-middle{
+        align-items: center;
+      }
+      .features-img{
+        align-items: center;
+        padding-top: 1.5rem;
+      }
+      .features-img img {
+        max-width: 95%;
+      }
+}
