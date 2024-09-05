@@ -129,4 +129,8 @@ box-shadow: none;
       .features-img img {
         max-width: 95%;
       }
+      .app-screen .swiper-slide{
+        width: 70px !important;
+        height: auto;
+      };
 }
