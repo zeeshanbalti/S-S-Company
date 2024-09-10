@@ -264,12 +264,14 @@ img {
     line-height: 4.938rem;
     padding: 1.063rem 0;
     color: var(--text-white);
+    font-family: cursive;
   }
 
   #home .home-text p{
     font-size: 1rem;
     padding: 1.064rem 0;
     color: var(--text-white);
+    font-family: monospace;
   }
 
   #home .home-download-btn {
@@ -321,6 +323,48 @@ img {
     animation: float 3s linear infinite;
     border-radius: 20px;
     max-width: 80%;
+  };
+  
+  h2{
+
+  };
+  h1{
+
+  }
+  #home .homeImg{
+    width: 100% !important;
+    height:100% !important;
+    border-radius: 10px !important;
+  }
+  
+  h2{
+
+  }
+
+  #feature img {
+    width: 15rem !important;
+    height: 15rem !important;
+  }
+  h2{
+
+  }
+  #feature h2{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 3.234rem;
+    }
+h1{
+
+}
+  #feature h5{
+    margin-top: 0.7rem;
+    text-transform: none;
+  };
+h1{
+
+}
+  #feature .btn{
+    margin-top: 0.3rem !important;
   }
 
   @keyframes float {
